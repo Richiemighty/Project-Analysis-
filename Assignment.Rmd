@@ -1,0 +1,48 @@
+---
+title: "My Assignment"
+output: github_document
+---
+
+## ASSIGNMENT 
+
+## TASK ONE
+```{r}
+x = rep(50, 5)
+barplot(x, col = topo.colors(5, alpha = 1))
+```
+## TASK TWO
+```{r}
+x2 <- rep(60, 8)
+barplot(x2, col = heat.colors(8))
+```
+
+## TASK THREE
+```{r setup, include=FALSE}
+x3 <- rep(70, 11)
+barplot(x3, col = cm.colors(11))
+```
+#### TASK FOUR
+
+```{r message=FALSE, warning=FALSE}
+require(RColorBrewer)
+A <- rep(65, 7)
+barplot(x, col = palette("R3"))
+```
+
+
+## TASK FIVE
+```{r}
+B <- rep(67, 6)
+barplot(B, col = brewer.pal(8, "Reds"))
+```
+
+## TASK SIX
+```{r}
+
+#### TASK THREE
+#display.brewer.pal(9, "PuOr")
+B <- rep(50,9) 
+barplot(B, col = brewer.pal(9, "PuOr"))
+
+```
+
